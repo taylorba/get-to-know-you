@@ -2,7 +2,7 @@
 
 Directions: Fork this project and add *another* file besides this one (.txt or .md, doesn't matter) to your forked version. 
 
-Name the file: about<Name> (e.g., aboutBen).
+Name the file: aboutName (e.g., aboutBen).
 
 Include the following information:
 
