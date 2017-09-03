@@ -1,6 +1,10 @@
 # Fork Exercise
 
-Directions: Fork this project and add *another* file besides this one (.txt or .md, doesn't matter) to your forked version that contains the following information:
+Directions: Fork this project and add *another* file besides this one (.txt or .md, doesn't matter) to your forked version. 
+
+Name the file: about<Name> (e.g., aboutBen).
+
+Include the following information:
 
 Name: <your name> (first, last, nickname, fantasy name -- I don't care.)
 
