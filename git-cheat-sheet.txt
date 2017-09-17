@@ -1,0 +1,103 @@
+# git clone: Download copy of repository from GitHub:
+git clone <remote url>
+
+# For a more in-depth, technical description, see the following:
+https://git-scm.com/docs/git-clone
+
+# git status:  displays the state of the working directory and the 
+# staging area. It lets you see which changes have been staged, which  
+# haven’t, and which files aren’t being tracked by Git.
+# Inside working directory, run the following:
+git status
+
+# For a more in-depth, technical description, see the following:
+https://git-scm.com/docs/git-status
+
+# git add: add changes to the staging area of your repository. In the 
+# working directory of your local machine, enter the following:
+git add <filename>
+
+# For a more in-depth, technical description, see the following:
+https://git-scm.com/docs/git-add
+
+# git commit: permanently add changes to your local repository.
+# In the working directory of your local machine, enter the following:
+
+git commit -m "commit message"
+
+# For a more in-depth, technical description, see the following:
+https://git-scm.com/docs/git-commit
+
+# git log: displays commit history of local repository.
+# Inside the working directory, run the following:
+git log
+
+# git log origin/<branch-name>: displays the commit history of a remote 
+# branch. For example, to see the commit history of the master branch for 
+# your project in GitHub, inside your working directory on your local 
+# machine, run the following:
+git log origin/master
+
+# For a more in-depth, technical description, see the following:
+https://git-scm.com/docs/git-log
+
+# git fetch: imports commits from a remote repository into your local 
+# repository without merging those commits into your local repository.
+# In this way, you can review changes someone else has made before
+# making this changes a permanent part of your repository.
+# Inside your working directory, run the following to fetch all remote 
+# branches:
+git fetch
+
+# Or, specify the remote branch you wish to import:
+git fetch <remote> <branch>
+
+# For a more in-depth, technical description, see the following:
+https://git-scm.com/docs/git-fetch
+
+# git pull: import and integrate changes of the remote repository into 
+# your local repository. Inside your working directory on your local 
+# machine, run the following:
+git pull
+
+# For a more in-depth, technical description, see the following:
+https://git-scm.com/docs/git-pull
+
+
+# git push: transfer commits from your local repository up to your remote # repository (e.g., on GitHub). Inside your working directory on your 
+# local machine, enter the following:
+git push
+
+# Note: if these are the first changes you're making to a freshly cloned
+# repository, enter the following to set up the local to track the remote:
+git push -u origin <branch-name>  # Most likely branch-name = "master".
+
+# After this, you will only need to enter "git push" for to transfer
+# future commits.
+
+# For a more in-depth, technical description, see the following:
+https://git-scm.com/docs/git-push
+
+# git checkout: Create and/or navigate between branches in a repostiory.
+# To create a new branch called "cli-test" and navigate to it, enter the 
+# following in your working directory on your local machine:
+git checkout -b cli-test
+
+# To navigate back to your master branch in your local repository,
+# in the working directory on your local machine, enter the following:
+git checkout master
+
+# For a more in-depth, technical description, see the following:
+https://git-scm.com/docs/git-checkout
+
+
+# git merge: merge one branch into another. For example, to merge the 
+# cli-test branch into your master branch, in your working directory on
+# your local machine, enter the following:
+
+git checkout master # switch to your master branch, if not already there.
+git merge cli-test  # merges changes made on cli-test branch to master.
+
+# For a more in-depth, technical description, see the following:
+https://git-scm.com/docs/git-merge
+
